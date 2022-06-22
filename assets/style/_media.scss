@@ -1,0 +1,485 @@
+@media (max-width: 1024px) {
+  .header-wrapper {
+    &-menu-top-container {
+      width: 70%;
+    }
+  }
+  #projects {
+    .projects-container {
+      padding-bottom: 30%;
+      &-boxes {
+        bottom: -33%  ;
+      }
+    }
+  }
+  #pricing {
+    .pricing-container {
+      padding-top: 27%;
+    }
+  }
+}
+@media (max-width: 950px) {
+  .header-wrapper {
+    .sticky-logo{
+      width: 100%;
+      &-image{
+        width: 30%;
+        
+      }
+      &-bar{
+        display: block;
+      }
+      
+    }
+    &-menu-top {
+      &-logo {
+        display: none;
+      }
+      &-container {
+        justify-content: flex-start;
+        width: 100%;
+      }
+    }
+    &-menu-bottom {
+      &-pages {
+        display: none;
+      }
+      &-logo {
+        display: block;
+      }
+      &-network {
+        &-bars {
+          display: block;
+        }
+        &-social {
+          display: none;
+        }
+      }
+    }
+   
+  }
+  #it-consulting {
+    .it-consulting-container {
+      &-content{
+        width: 90%;
+      }
+      &-appointment {
+        width: 90%;
+      }
+    }
+  }
+  #about-us {
+    .about-us-container {
+      &-image-middle {
+        width: 95%;
+      }
+    }
+  }
+  #services {
+    .services-container {
+      padding: 8% 1%;
+      &-boxes {
+        gap: 5px;
+        &-box {
+          padding-right: 5px;
+          &-image {
+            width: 50%;
+          }
+          margin: 1%;
+          h5 {
+            a {
+              font-size: 18px;
+              font-weight: 600;
+              line-height: 1.4em;
+              width: 100%;
+              text-align: center;
+            }
+          }
+          p {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+  #contact {
+    .contact-container {
+      padding-bottom: 8%;
+      &-image {
+        display: none;
+      }
+      &-content {
+        width: 100%;
+      }
+      &-data {
+        width: 90%;
+        bottom: -170px;
+        right: 50px;
+      }
+    }
+  }
+  #working-process {
+    .working-process-container {
+      padding: 35% 5% 13% 5%;
+    }
+  }
+  #projects {
+    .projects-container {
+      padding: 13% 3% 37% 3%;
+    }
+  }
+  #pricing {
+    .pricing-container {
+      padding-top: 37%;
+      &-boxes {
+        &-box {
+          width: 32%;
+          padding: 4% 1% 6% 1%;
+          &-image {
+            img {
+              margin-top: 20px;
+            }
+            span {
+              left: -10px;
+            }
+          }
+          &-title-content {
+            li {
+              justify-content: space-between;
+              font-size: 13px;
+              p {
+                text-align: left;
+              }
+            }
+          }
+          &-button {
+            left: 17%;
+          }
+        }
+        &-box-middle {
+          width: 32%;
+          padding: 4% 1% 6% 1%;
+          &-image {
+            img {
+              margin-top: 20px;
+            }
+            span {
+              left: -10px;
+            }
+          }
+          &-title-content {
+            li {
+              justify-content: space-between;
+              font-size: 13px;
+              p {
+                text-align: left;
+              }
+            }
+          }
+          &-button {
+            left: 17%;
+          }
+        }
+      }
+    }
+  }
+  #footer {
+    .footer-wrapper {
+      .footer-top {
+        &-container-boxes {
+          gap: 20px;
+          justify-content: center;
+          &-box {
+            width: 47%;
+            &-news {
+              margin-left: 55px;
+            }
+          }
+        }
+      }
+      .footer-end {
+        &-container {
+          &-word {
+            width: 47%;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 768px) {
+  .header-wrapper{
+    &-menu-top{
+      display: none;
+    }
+  }
+  #it-consulting{
+    .it-consulting-container{
+      &-content{
+        width: 100%;
+      }
+      &-appointment{
+        width: 100%;
+        margin-top: 75px;
+      }
+    }
+  }
+  #about-us{
+    .about-us-container{
+      padding-left: 20px;
+      &-image{
+        width: 100%;
+        margin-bottom: 150px;
+      }
+      &-content{
+        width: 100%;
+        margin-top: 255px;
+      }
+    }
+  }
+  #services{
+    .services-container{
+      &-title{
+        h2{
+          width: 100%;
+          margin: 0;
+          font-size: 28px;
+          line-height: 1.3em;
+        }
+      }
+      &-boxes{
+        padding-right: 10px;
+        &-box{
+          width: 100%;
+          padding-right: 15px;
+          &-image{
+            width: 25%;
+          }
+        }
+      }
+    }
+  }
+  #contact{
+    .contact-container{
+      font-size: 19px;
+      &-data{
+        bottom: -460px;
+        right: 20px;
+        flex-direction: column;
+      }
+    }
+  }
+  #working-process{
+    .working-process-container{
+      padding-top: 550px;
+      &-content{
+        width: 100%;
+        &-title{
+          text-align: center;
+          h2{
+            font-size: 28px;
+            width: 100%;
+          }
+        }
+      }
+      &-boxes{
+        width: 100%;
+        &-box{
+          width: 100%;
+        }
+      }
+    }
+  }
+  #projects{
+    .projects-container{
+      &-title{
+        h2{
+          font-size: 28px;
+          width: 100%;
+          margin-left: 0;
+        }
+      }
+      &-boxes{
+        bottom: -70%;
+        &-box{
+          &-content{
+            left: 10%;
+          }
+        }
+      }
+      
+    }
+  }
+  #pricing{
+    .pricing-container{
+      padding-top: 66%;
+      &-boxes{
+        gap: 30px;
+        &-box{
+          width: 100%;
+          padding-bottom: 13%;
+          &-button{
+            bottom: 10px;
+            left: 40%;
+          }
+        }
+        &-box-middle{
+          width: 100%;
+          padding-bottom: 13%;
+          &-button{
+            bottom: 10px;
+            left: 40%;
+          }
+        }
+      }
+    }
+  }
+  #testimonal{
+    .testimonal-container{
+      &-title{
+        h2{
+          font-size: 28px;
+        }
+        
+      }
+      &-boxes{
+        &-box{
+          &-id{
+            left: 30%;
+            img{
+              margin-left: 70px;
+            }
+          }
+        }
+      }
+    }
+  }
+  #blog{
+    .blog-container{
+      &-title{
+        h2{
+          font-size: 28px;
+        }
+      }
+    }
+  }
+  .footer-wrapper{
+
+    .footer-top{
+      &-container{
+        padding-left: 25px;
+          &-boxes-box{
+            width: 100% !important;
+            &-it{
+              margin-left: 0 !important;
+            }
+            &-news{
+              width: 70%;
+              margin-left: 0 !important;
+            }
+          }
+        
+      }
+    }
+    .footer-end{
+      &-container{
+        flex-direction: column-reverse;
+        justify-content: center !important;
+        gap: 20px;
+        padding: 30px 0 !important;
+        &-word{
+          width: 100% !important;
+          text-align: center;
+          margin-left: 5px;
+        }
+      }
+
+    }
+  }
+}
+@media (max-width: 480px){
+  .header-wrapper{
+    .sticky-logo{
+      &-image{
+        width: 40%;
+      }
+      }
+    &-menu-bottom{
+      justify-content: space-between;
+      &-logo{
+        width: 35%;
+      }
+      &-network{
+        width: 50%;
+        justify-content: center;
+        gap: 15px;
+        &-bars{
+        width: 27%;
+        }
+      }
+    }
+  }
+  #it-consulting{
+    .it-consulting-container-content{
+      h2{
+        font-size: 40px;
+      }
+    }
+  }
+  #about-us{
+    .about-us-container-content-title{
+      h2{
+        font-size: 30px;
+      }
+      p{
+        font-size: 15px;
+      }
+    }
+  }
+  #services{
+    .services-container{
+      &-boxes{
+        &-box{
+          &-image{
+            width: 30%;
+          }
+        }
+      }
+    }
+  }
+  #contact{
+    .contact-container{
+      &-content-phone{
+        p{
+          font-size: 28px;
+        }
+      }
+    }
+  }
+  #projects{
+    .projects-container{
+      padding-bottom: 50%;
+      
+    }
+  }
+  #pricing{
+    .pricing-container{
+      padding-top: 93%;
+      &-boxes{
+        &-box{
+          padding-bottom: 55px;
+          &-button{
+            left:25%;
+          }
+        }
+        &-box-middle{
+          padding-bottom: 55px;
+          &-button{
+            left:25%;
+          }
+        }
+
+      }
+    }
+  }
+}

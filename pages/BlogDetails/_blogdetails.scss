@@ -1,0 +1,172 @@
+#blog-page-wrapper {
+    width: 100%;
+    .blog-page-container {
+      width: 100%;
+      padding: 10% 5%;
+      &-boxes {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        &-box-details {
+          width: 70%;
+          background-color: white;
+          padding: 1%;
+          &-image {
+            width: 100%;
+            margin-bottom: 25px;
+            img {
+              width: 100%;
+              
+            }
+          
+          }
+          &-content {
+            padding: 0 15px;
+            h4 {
+              
+                color: #0a0a0a;
+                font-size: 26px;
+                font-weight: 700;
+                line-height: 35px;
+                transition: 0.7s;
+               
+              
+            }
+            h6{
+                color: #0a0a0a;
+                font-size: 28px;
+                line-height: 32px;
+                font-weight: 700;
+                margin-bottom: 17px;
+            }
+            p {
+              margin: 15px 0;
+              span {
+                color: #555;
+                margin-right: 30px;
+                font-weight: 400;
+                font-size: 13px;
+                i {
+                  color: #0b70e1;
+                  margin-right: 5px;
+                }
+              }
+            }
+            span {
+              display: inline-block;
+              margin-bottom: 15px;
+              color: #454545;
+              font-size: 16px;
+            }
+            ul{
+                margin: 20px 0;
+                padding-left: 50px;
+                li{
+                    list-style: disc;
+                    color: #454545;
+                }
+            }
+            .blog-text {
+              display: -webkit-box;
+              -webkit-line-clamp: 2;
+              -webkit-box-orient: vertical;
+              overflow: hidden;
+            }
+            &-quote {
+                margin: 35px 0;
+                padding: 40px 60px;
+                color: #666;
+                background: rgba(131, 124, 124, 0.01);
+                font-weight: 400;
+                font-style: italic;
+                text-align: left;
+                clear: both;
+                font-weight: 400;
+                border-radius: 8px;
+                p{
+                    margin: 10px 0;
+                }
+                i{
+                    font-size: 37px;
+                    color: #0b70e1;
+                }
+                h5 {
+                    color: #666;
+                    font-size: 20px;
+                    line-height: 26px;
+                    font-weight: 600;
+                  }
+                  span {
+                    display: inline-block;
+                    width: 45px;
+                    height: 2px;
+                    margin-bottom: 5px;
+                    margin-right: 7px;
+                    background-color: #0b70e1;
+                  }
+              }
+          }
+          &-reply{
+              width: 100%;
+              padding: 1%;
+              h4{
+                font-size: 24px;
+                font-weight: 700;
+                margin-bottom: 20px;
+                margin-top: 45px;
+              }
+              span{
+                color: #454545 ;
+                font-size: 16px ;
+                line-height: 1.7;
+    font-weight: 400;
+              }
+              p{
+                  display: flex;
+                  gap: 20px;
+                  input{
+                      display: inline-block;
+                    width: 100%;
+                    height: 50px;
+                    padding: 15px 20px;
+                    font-size: inherit;
+                    background-color: #f6f7f9;
+                    border: none;
+                    border-radius: 5px;
+                  }
+              }
+              textarea{
+                  margin: 20px 0;
+                  display: block;
+                  resize: none;
+                  width: 100%;
+                  height: 160px;
+                  padding: 15px 20px;
+                  background-color: #f6f7f9;
+                  border: 1px solid transparent;
+                  border-radius: 5px;
+                  font-size: inherit;
+              }
+              button{
+                background-image: linear-gradient(50deg,#03228f 10%,#0e73e4 100%);
+                display: inline-block;
+                padding: 14px 25px;
+                border: 1px solid transparent;
+                border-radius: 30px;
+                line-height: normal;
+                font-size: 16px;
+                font-weight: 500;
+                color: #fff;
+                transition: all .8s ease;
+                &:hover{
+                    background-image: linear-gradient(50deg,#03228f 40%,#0e73e4 90%);
+                }
+              }
+          }
+         
+        }
+    }
+}
+}

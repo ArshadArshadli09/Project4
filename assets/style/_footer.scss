@@ -1,0 +1,179 @@
+#footer {
+  width: 100%;
+  .footer-wrapper {
+    width: 100%;
+    background: #f5f6f9;
+    background-image: url(/assets/image/footer-back.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    .footer-top {
+      width: 100%;
+      &-container {
+        width: 100%;
+        padding: 7% 4%;
+        &-boxes {
+          width: 100%;
+          display: flex;
+          flex-wrap: wrap;
+          
+          // flex: 1 1 300px;
+          // justify-content: space-between;
+          // align-items: center;
+          // text-align: left;
+
+          &-box {
+            width: 24%;
+            &-it {
+              margin-left: 17%;
+            }
+            &-contact {
+              padding-right: 16%;
+              // margin-bottom: 0%;
+            }
+            &-news {
+              margin-bottom: 13%;
+              position: relative;
+              input {
+                border: none;
+                width: 91%;
+                font-size: 13px;
+                padding: 20px 60px 20px 20px;
+                margin: 0;
+                color: #0a0a0a;
+                overflow: hidden;
+                border-radius: 30px 0 0 30px;
+                background: #fff;
+                box-shadow: 0 0 25px #eee;
+                outline: none;
+              }
+              button {
+                position: absolute;
+                right: 0;
+                background-image: linear-gradient(
+                  90deg,
+                  #03228f 0%,
+                  #0e73e4 100%
+                );
+                border: 1px solid transparent;
+                border-radius: 50%;
+                padding: 18px;
+                cursor: pointer;
+                i {
+                  color: white;
+                  font-size: 20px;
+                }
+              }
+            }
+
+            li {
+              margin-bottom: 15px;
+              img {
+                width: 70%;
+                object-fit: contain;
+              }
+              h4 {
+                color: #111111;
+                font-size: 22px;
+              }
+              p {
+                color: #454545;
+                font-size: 16px;
+              }
+
+              a {
+                color: #454545;
+                font-size: 16px;
+
+                &:hover {
+                  color: #0b70e1;
+                }
+
+                i {
+                  text-align: center;
+                  display: inline-block;
+                  font-size: 15px;
+                  margin-right: 3px;
+                  transition: all 0.8s ease;
+                  background: rgba(255, 255, 255, 0.9);
+                  width: 35px;
+                  height: 35px;
+                  line-height: 35px;
+                  border-radius: 50%;
+                  color: #555;
+                  transition: 0.5s;
+                  &:hover {
+                    color: white;
+                    background-color: #0b70e1;
+                  }
+                }
+              }
+              span {
+                color: #454545;
+                font-size: 16px;
+
+                i {
+                  color: #0b70e1;
+                  margin-right: 15px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    .footer-end {
+      width: 100%;
+      &-container {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1.5% 5% 1.5% 3%;
+        background: rgba(255, 255, 255, 0.4);
+        &-word {
+          p {
+            color: #454545;
+            line-height: 35px;
+            font-size: 15px;
+            a {
+              color: #454545;
+              line-height: 35px;
+              font-size: 16px;
+              &:hover {
+                color: #0b70e1;
+              }
+            }
+          }
+        }
+        &-page {
+          ul {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+            li {
+              text-align: center;
+              a {
+                color: #454545;
+                font-size: 15px;
+              }
+              i {
+                display: inline-block;
+                color: transparent;
+                border: 1px solid transparent;
+                border-radius: 50%;
+                margin-right: 15px;
+                background-image: linear-gradient(
+                  90deg,
+                  #03228f 0%,
+                  #0e73e4 100%
+                );
+                font-size: 5px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
